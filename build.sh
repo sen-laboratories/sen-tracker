@@ -1,5 +1,7 @@
 #!/bin/bash
 TRACKER_SRC_DIR=$HOME/Develop/haiku/src/kits/tracker
+HAIKU_OUT_DIR=$HOME/Develop/haiku/generated/objects/haiku/x86_64/release
+
 OLD_DIR="$PWD"
 
 printf "Building Tracker from $TRACKER_SRC_DIR...\n"
@@ -15,3 +17,8 @@ else
   printf "\nERROR, aborting.\n"
   exit 1;
 fi
+
+printf "copying over Tracker and libs...\n"
+
+cp $HAIKU_OUT_DIR/kits/tracker/libtracker.so ./generated/lib/ && \
+cp $HAIKU_OUT_DIR/apps/tracker/Tracker ./generated/Tracker
