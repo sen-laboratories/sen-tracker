@@ -2,7 +2,7 @@
   <img src="images/sen-tracker-logo.jpg" width=360 />
 </p>
 
-<h1 align="center">SEN Tracker<h1>
+<h1 align="center">SEN Tracker</h1>
 
 <p align="center">
   A semantic take on Tracker, the Haiku file manager. Keeps changes to a sane level and tries to "just" blend in but offer some magic SEN sprinkle dust.
