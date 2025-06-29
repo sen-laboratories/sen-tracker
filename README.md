@@ -1,6 +1,12 @@
+# SEN Tracker
+
 <p align="center">
-  <img src="assets/logo/akita.jpg" width=320 />
+  <img src="images/sen-tracker-logo.jpg" width=320 />
 </p>
+
+# About
+
+This repository contains the changes to Haiku Tracker for integrating with SEN and providing support for linked semantic navigation and file manipulation.
 
 # Build
 
